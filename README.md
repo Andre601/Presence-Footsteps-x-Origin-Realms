@@ -12,7 +12,7 @@ The goal of this resource pack is to make the Presence Footsteps mod compatible 
 You need to build and use your own version of Presence Footsteps!
 To do so, do the following:
 
-1. Fork the [Presence Footsteps Repository]() to your desktop.
+1. Fork the [Presence Footsteps Repository](https://github.com/Sollace/Presence-Footsteps) to your desktop.
 2. Open the folder in git bash
 3. Switch branch to the 1.17 branch
 3. Run `./gradlew clean build`
