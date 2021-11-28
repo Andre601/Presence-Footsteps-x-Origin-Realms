@@ -1,3 +1,5 @@
+<img alt="logo" align="right" src="https://raw.githubusercontent.com/Andre601/Presence-Footsteps-x-Origin-Realms/main/.assets/Resource%20page%20logo.png" height="200" width="200">
+
 # Presence Footsteps x Origin Realms
 This is a resource pack for the [Presence Footsteps](https://www.curseforge.com/minecraft/mc-mods/presence-footsteps) Mod, a mod that enhances sounds for walking on blocks.
 
