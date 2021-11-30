@@ -9,18 +9,7 @@ The goal of this resource pack is to make the Presence Footsteps mod compatible 
 **Remember to disable this resource pack if you play on other servers, as it overrides the default sounds for the different note block variants!**
 
 ## Note about Presence Footsteps
-You need to build and use your own version of Presence Footsteps!
-To do so, do the following:
-
-1. Fork the [Presence Footsteps Repository](https://github.com/Sollace/Presence-Footsteps) to your desktop.
-2. Open the folder in git bash
-3. Switch branch to the 1.17 branch
-3. Run `./gradlew clean build`
-4. A jar should now be built under the `build/libs/` directory
-5. Use the jar which doesn't have `-dev`, `-sources` or `-sources-dev` in its name.
-
-For your convenience is here a direct download link:
-https://cdn.discordapp.com/attachments/412716812761825290/914341086623858728/PresenceFootsteps-r32-1.17-rc1.jar
+This resource pack requires AT LEAST `PresenceFootsteps-r34-1.17.jar` or `PresenceFootsteps-r34-1.18.jar` to function properly.
 
 ## Disclaimer
 **THIS RESOURCE PACK IS NOT SUPPORTED BY NOR AFFILIATED OR ENDORSED BY THE DEVS OF ORIGIN REALMS NOR THE PRESENCE FOOTSTEPS MOD.**
