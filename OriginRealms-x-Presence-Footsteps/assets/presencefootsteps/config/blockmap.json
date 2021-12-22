@@ -213,7 +213,7 @@
     "minecraft:note_block[instrument=CHIME,note=12]": "marble",
     "minecraft:note_block[instrument=CHIME,note=13]": "marble",
     "minecraft:note_block[instrument=CHIME,note=14]": "wood,mushroom",
-    "minecraft:note_block[instrument=CHIME,note=15]": "grass",
+    "minecraft:note_block[instrument=CHIME,note=15]": "leaves",
     "minecraft:note_block[instrument=CHIME,note=16]": "wood,mushroom",
     "minecraft:note_block[instrument=CHIME,note=17]": "grass",
     "minecraft:note_block[instrument=CHIME,note=18]": "wood,mushroom",
