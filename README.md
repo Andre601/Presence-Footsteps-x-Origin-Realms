@@ -9,7 +9,7 @@ The goal of this resource pack is to make the Presence Footsteps mod compatible 
 **Remember to disable this resource pack if you play on other servers, as it overrides the default sounds for the different note block variants!**
 
 ## Note about Presence Footsteps
-This resource pack requires AT LEAST `PresenceFootsteps-r34-1.17.jar` or `PresenceFootsteps-r34-1.18.jar` to function properly.
+This resource pack requires AT LEAST `PresenceFootsteps-r34-1.18.jar` to function properly.
 
 ## Disclaimer
 **THIS RESOURCE PACK IS NOT SUPPORTED BY NOR AFFILIATED OR ENDORSED BY THE DEVS OF ORIGIN REALMS NOR THE PRESENCE FOOTSTEPS MOD.**
