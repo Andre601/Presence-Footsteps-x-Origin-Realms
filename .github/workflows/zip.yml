@@ -40,6 +40,8 @@ jobs:
         modrinth-featured: false
         dependencies: |
           rcTfTZr3 | depends
+        loaders: |
+          fabric
         
         github-token: ${{ secrets.GITHUB_TOKEN }}
         github-tag: ${{ inputs.version }}
