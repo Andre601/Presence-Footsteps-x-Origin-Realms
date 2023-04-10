@@ -32,11 +32,14 @@ jobs:
         version: ${{ inputs.version }}
         version-type: release
         changelog-file: '.github/changelogs/${{ inputs.version }}.md'
-        game-versions: '1.19.4'
+        game-versions: |
+          1.19.4
         
         modrinth-id: xYfiwE5K
         modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
         modrinth-featured: false
+        dependencies: |
+          rcTfTZr3 | depends
         
         github-token: ${{ secrets.GITHUB_TOKEN }}
         github-tag: ${{ inputs.version }}
