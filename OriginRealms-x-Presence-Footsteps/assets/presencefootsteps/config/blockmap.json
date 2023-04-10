@@ -219,7 +219,7 @@
     "minecraft:note_block[instrument=BASS,note=9,powered=true]": "sand",
     "minecraft:note_block[instrument=BASS,note=10,powered=true]": "sand",
     "minecraft:note_block[instrument=BASS,note=11,powered=true]": "squeakywood",
-    "minecraft:note_block[instrument=BASS,note=12,powered=true]": "UNASSIGNED",
+    "minecraft:note_block[instrument=BASS,note=12,powered=true]": "squeakywood",
     "minecraft:note_block[instrument=BASS,note=13,powered=true]": "UNASSIGNED",
     "minecraft:note_block[instrument=BASS,note=14,powered=true]": "UNASSIGNED",
     "minecraft:note_block[instrument=BASS,note=15,powered=true]": "UNASSIGNED",
