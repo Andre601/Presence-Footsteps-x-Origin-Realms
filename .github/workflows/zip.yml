@@ -1,11 +1,16 @@
 name: Generate zip for release
 
 on:
-  release:
-    types:
-    - published
-    branches:
-    - main
+  workflow_dispatch:
+    inputs:
+      version:
+        description: The Release version
+        required: true
+        type: string
+      title:
+        description: The Title to use for the release
+        required: true
+        type: string
 
 jobs:
   createZip:
@@ -17,10 +22,23 @@ jobs:
         ref: main
     - name: Zip files
       working-directory: './OriginRealms-x-Presence-Footsteps'
-      run: 'zip -r Presence-Footsteps-x-OriginRealms-${{ github.event.release.tag_name }}.zip assets/ pack.mcmeta pack.png'
-    - name: Upload zip to release
-      uses: AButler/upload-release-assets@v2.0
+      run: 'zip -r Presence-Footsteps-x-OriginRealms-${{ inputs.version }}.zip assets/ pack.mcmeta pack.png'
+    - name: Create release and upload
+      uses: Kir-Antipov/mc-publish@v3.2
       with:
-        files: 'OriginRealms-x-Presence-Footsteps/Presence-Footsteps-x-OriginRealms-${{ github.event.release.tag_name }}.zip'
-        repo-token: '${{ secrets.GITHUB_TOKEN }}'
+        files-primary: 'OriginRealms-x-Presence-Footsteps/Presence-Footsteps-x-OriginRealms-${{ inputs.version }}.zip'
+        
+        name: ${{ inputs.title }}
+        version: ${{ inputs.version }}
+        version-type: release
+        changelog-file: '.github/changelogs/${{ inputs.version }}.md'
+        game-versions: '1.19.4'
+        
+        modrinth-id: xYfiwE5K
+        modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+        modrinth-featured: false
+        
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        github-tag: ${{ inputs.version }}
+        github-commitish: main
     
