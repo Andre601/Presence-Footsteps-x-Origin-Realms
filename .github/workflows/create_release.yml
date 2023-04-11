@@ -35,13 +35,13 @@ jobs:
         game-versions: |
           1.19.4
         
-        #modrinth-id: xYfiwE5K
-        #modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-        #modrinth-featured: false
-        #dependencies: |
-        #  rcTfTZr3 | depends
-        #loaders: |
-        #  fabric
+        modrinth-id: xYfiwE5K
+        modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+        modrinth-featured: false
+        dependencies: |
+          rcTfTZr3 | depends
+        loaders: |
+          minecraft
         
         github-token: ${{ secrets.GITHUB_TOKEN }}
         github-tag: ${{ inputs.version }}
