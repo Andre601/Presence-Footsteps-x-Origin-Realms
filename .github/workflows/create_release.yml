@@ -21,7 +21,7 @@ jobs:
       with:
         ref: main
     - name: Zip files
-      working-directory: './OriginRealms-x-Presence-Footsteps'
+      working-directory: './PFxOR'
       run: 'zip -r PFxOR-${{ inputs.version }}.zip assets/ pack.mcmeta pack.png'
     - name: Create release and upload
       uses: Kir-Antipov/mc-publish@v3.3
