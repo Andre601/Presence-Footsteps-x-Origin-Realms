@@ -316,7 +316,7 @@
     "minecraft:note_block[instrument=BELL,note=2,powered=true]": "brickstone",
     "minecraft:note_block[instrument=BELL,note=3,powered=true]": "dirt",
     "minecraft:note_block[instrument=BELL,note=4,powered=true]": "brickstone",
-    "minecraft:note_block[instrument=BELL,note=5,powered=true]": "stone",
+    "minecraft:note_block[instrument=BELL,note=5,powered=true]": "dirt",
     "minecraft:note_block[instrument=BELL,note=6,powered=true]": "brickstone",
     "minecraft:note_block[instrument=BELL,note=7,powered=true]": "grass",
     "minecraft:note_block[instrument=BELL,note=8,powered=true]": "brickstone",
