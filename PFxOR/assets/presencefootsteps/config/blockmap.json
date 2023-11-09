@@ -321,7 +321,7 @@
     "minecraft:note_block[instrument=BELL,note=7,powered=true]": "grass",
     "minecraft:note_block[instrument=BELL,note=8,powered=true]": "brickstone",
     "minecraft:note_block[instrument=BELL,note=9,powered=true]": "rug,grass",
-    "minecraft:note_block[instrument=BELL,note=10,powered=true]": "ore",
+    "minecraft:note_block[instrument=BELL,note=10,powered=true]": "dirt,ore",
     "minecraft:note_block[instrument=BELL,note=11,powered=true]": "wood",
     "minecraft:note_block[instrument=BELL,note=12,powered=true]": "wood",
     "minecraft:note_block[instrument=BELL,note=13,powered=true]": "wood",
