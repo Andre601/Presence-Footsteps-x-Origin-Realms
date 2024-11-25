@@ -34,7 +34,7 @@ jobs:
         version-type: release
         changelog-file: '.github/changelogs/${{ inputs.version }}.md'
         game-versions: |
-          1.19.4
+          >=1.19.4
         
         modrinth-id: xYfiwE5K
         modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
