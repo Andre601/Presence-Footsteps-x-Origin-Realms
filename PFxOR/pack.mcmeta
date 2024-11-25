@@ -1,7 +1,7 @@
 {
     "pack": {
-        "pack_format": 12,
-        "supported_formats": [12, 15, 18, 26, 41, 48, 57],
+        "pack_format": 18,
+        "supported_formats": [18, 26, 41, 48, 57],
         "description": "§6PF + OR = §4❤\n§7Made by §bAndre_601"
     }
 }
